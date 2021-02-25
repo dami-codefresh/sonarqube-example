@@ -34,6 +34,6 @@ steps:
     stage: "push"
     arguments:
       SONAR_HOST_URL: 'https://sonarcloud.io/'
-      SONAR_LOGIN: "access token"
+      SONAR_LOGIN: "f72865d242032b861549a7a34f1b2f579c5da2f4"
       SONAR_PROJECT_BASE_DIR: "/codefresh/volume/sonarqube-example"
       SONAR_SCANNER_CLI_VERSION: "latest"
